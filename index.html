@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App - 152022059</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .name {
+            font-size: 16px;
+            color: #344C64;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <div class="header">
+                <h2>To-Do LIFS <img src="images/ToDoList.png" alt="To-Do List"></h2>
+                <span class="name">- by 152022059</span>
+            </div>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="add your activity">
+                <button onclick="AddTask()">Add</button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
+        </div>
+    </div>
+    <script src="brain.js"></script>
+</body>
+</html>
